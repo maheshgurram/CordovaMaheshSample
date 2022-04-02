@@ -1,0 +1,17 @@
+{
+  "name": "com.mahesh.sample",
+  "version": "1.0.0",
+  "description": "Sample for sum",
+  "cordova": {
+    "id": "com.mahesh.sample",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Mahesh Gurram",
+  "license": "ISC"
+}

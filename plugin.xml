@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.mahesh.sample" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaMaheshSample</name>
+    <js-module name="CordovaMaheshSample" src="www/CordovaMaheshSample.js">
+        <clobbers target="cordova.plugins.CordovaMaheshSample" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="Sum">
+                <param name="ios-package" value="Sum" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/Sum.swift" />
+    </platform>
+</plugin>
